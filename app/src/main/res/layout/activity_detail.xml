@@ -10,12 +10,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10px"
-        android:layout_marginBottom="15px"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
         android:gravity="center"
-        android:text="HASIL PERHITUNGAN BMI"
+        android:text="@string/hasil_perhitungan_bmi"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.047"
@@ -29,9 +29,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10sp"
         android:layout_marginLeft="10sp"
-        android:text="NAMA"
+        android:text="@string/nama"
         android:textColor="@color/black"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="9dp"
         tools:layout_editor_absoluteY="53dp" />
@@ -43,9 +43,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10sp"
         android:layout_marginLeft="10sp"
-        android:text="NAMA"
+        android:text="@string/nama"
         android:textColor="@color/black"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="9dp"
         tools:layout_editor_absoluteY="53dp" />
@@ -56,9 +56,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10sp"
         android:layout_marginLeft="10sp"
-        android:text="JENIS KELAMIN"
+        android:text="@string/jenis_kelamin"
         android:textColor="@color/black"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="9dp"
         tools:layout_editor_absoluteY="53dp" />
@@ -72,18 +72,18 @@
             android:id="@+id/rm"
             android:layout_width="wrap_content"
             android:layout_height="32dp"
-            android:text="Laki-Laki"
+            android:text="@string/laki_laki"
             android:textColor="@color/black"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/rf"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Perempuan"
+            android:text="@string/perempuan"
             android:textColor="@color/black"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
     </RadioGroup>
@@ -93,9 +93,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10sp"
         android:layout_marginLeft="10sp"
-        android:text="HOBI"
+        android:text="@string/hobi"
         android:textColor="@color/black"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="9dp"
         tools:layout_editor_absoluteY="53dp" />
@@ -104,27 +104,27 @@
         android:id="@+id/c1"
         android:layout_width="wrap_content"
         android:layout_height="32dp"
-        android:text="GYM"
+        android:text="@string/gym"
         android:textColor="@color/black"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <CheckBox
         android:id="@+id/c2"
         android:layout_width="wrap_content"
         android:layout_height="33dp"
-        android:text="Lari"
+        android:text="@string/lari"
         android:textColor="@color/black"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <CheckBox
         android:id="@+id/c3"
         android:layout_width="wrap_content"
         android:layout_height="29dp"
-        android:text="Sepeda"
+        android:text="@string/sepeda"
         android:textColor="@color/black"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <TextView
@@ -133,11 +133,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10sp"
         android:layout_marginLeft="10sp"
-        android:text="TINGGI (CM)"
-        android:layout_marginTop="3px"
-        android:layout_marginBottom="3px"
+        android:text="@string/tinggi_cm"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
         android:textColor="@color/black"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="9dp"
         tools:layout_editor_absoluteY="53dp" />
@@ -154,11 +154,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10sp"
         android:layout_marginLeft="10sp"
-        android:text="BERAT (KG)"
-        android:layout_marginTop="3px"
-        android:layout_marginBottom="3px"
+        android:text="@string/berat_kg"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
         android:textColor="@color/black"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="9dp"
         tools:layout_editor_absoluteY="53dp" />
@@ -168,7 +168,7 @@
         android:max="250"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5px"
+        android:layout_marginTop="5dp"
         android:layout_marginBottom="10dp" />
 
     <TextView
@@ -177,9 +177,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10sp"
         android:layout_marginLeft="10sp"
-        android:text="HASIL"
+        android:text="@string/hasil"
         android:textColor="@color/black"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="9dp"
         tools:layout_editor_absoluteY="53dp" />
@@ -190,9 +190,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10sp"
         android:layout_marginLeft="10sp"
-        android:text="hasil"
+        android:text="@string/hasil_1"
         android:textColor="@color/black"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="9dp"
         tools:layout_editor_absoluteY="53dp" />
@@ -202,44 +202,47 @@
         android:layout_width="180dp"
         android:layout_height="40dp"
         android:layout_marginLeft="115dp"
-        android:layout_marginBottom="25px"
-        android:text="UPDATE"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/update"
         android:background="@drawable/button"
-        android:textSize="14dp"
+        android:textSize="14sp"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:backgroundTint="#185ADB"
         tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="144dp" />
+        tools:layout_editor_absoluteY="144dp"
+        android:layout_marginStart="115dp" />
 
     <Button
         android:id="@+id/btndeletedetail"
         android:layout_width="180dp"
         android:layout_height="40dp"
         android:layout_marginLeft="115dp"
-        android:layout_marginBottom="25px"
-        android:text="DELETE"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/delete"
         android:background="@drawable/button"
-        android:textSize="14dp"
+        android:textSize="14sp"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:backgroundTint="#E91E1E"
         tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="144dp" />
+        tools:layout_editor_absoluteY="144dp"
+        android:layout_marginStart="115dp" />
 
     <Button
         android:id="@+id/btnkembalidetail"
         android:layout_width="180dp"
         android:layout_height="40dp"
         android:layout_marginLeft="115dp"
-        android:text="KEMBALI"
+        android:text="@string/kembali"
         android:background="@drawable/button"
-        android:textSize="14dp"
+        android:textSize="14sp"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:backgroundTint="#4CAF50"
         tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="144dp" />
-
-
+        tools:layout_editor_absoluteY="144dp"
+        android:layout_marginStart="115dp" />
 </LinearLayout>

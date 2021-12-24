@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Aplikasi BMI</string>
+    <string name="nama">NAMA</string>
+    <string name="hasil_perhitungan_bmi">HASIL PERHITUNGAN BMI</string>
+    <string name="jenis_kelamin">JENIS KELAMIN</string>
+    <string name="laki_laki">Laki-Laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="hobi">HOBI</string>
+    <string name="gym">GYM</string>
+    <string name="lari">Lari</string>
+    <string name="sepeda">Sepeda</string>
+    <string name="tinggi_cm">TINGGI (CM)</string>
+    <string name="berat_kg">BERAT (KG)</string>
+    <string name="hasil">HASIL</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="kembali">KEMBALI</string>
+    <string name="hasil_1">hasil</string>
 </resources>
