@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="287dp"
+
+        android:layout_marginBottom="531dp"
+        android:background="@drawable/blue_bg" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="APLIKASI BMI"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:text="NAMA"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="53dp" />
+    <TextView
+        android:id="@+id/txtnamahasil"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:text="NAMA"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:text="JENIS KELAMIN"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/txtjkhasil"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:text="jk"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:text="HOBI"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/txthobihasil"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:text="hobi"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/tulisantinggihasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:text="TINGGI (CM)"
+        android:layout_marginTop="30px"
+        android:layout_marginBottom="30px"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+
+    <TextView
+        android:id="@+id/tulisanberathasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:text="BERAT (KG)"
+        android:layout_marginTop="30px"
+        android:layout_marginBottom="30px"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:text="HASIL"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="53dp" />
+    <TextView
+        android:id="@+id/txtketeranganhasil"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:text="hasil"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <Button
+        android:id="@+id/btnhistory"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="50px"
+        android:text="HISTORY"
+        android:textSize="15dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:backgroundTint="#FFC107"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <Button
+        android:id="@+id/btnkembali"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="50px"
+        android:text="Kembali"
+        android:background="@drawable/button"
+        android:textSize="15dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:backgroundTint="#E91E1E"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="144dp" />
+    </LinearLayout>
+
+</RelativeLayout>
